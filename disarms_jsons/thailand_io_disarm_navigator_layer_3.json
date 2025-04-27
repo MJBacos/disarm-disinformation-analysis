@@ -1,0 +1,85 @@
+{
+  "name": "Thailand IO Campaign - DISARM Observations",
+  "versions": {
+    "attack": "1",
+    "navigator": "4.8.2",
+    "layer": "4.4"
+  },
+  "domain": "DISARM",
+  "description": "Generated automatically from CSV metadata analysis.",
+  "filters": {
+    "platforms": [
+      "Windows",
+      "Linux",
+      "Mac"
+    ]
+  },
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "aggregateFunction": "average",
+    "showID": false,
+    "showName": true,
+    "showAggregateScores": false,
+    "countUnscored": false
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T0074",
+      "tactic": "plan-strategy",
+      "color": "#ff6666",
+      "comment": "Mass creation of accounts observed on 2019-12-08 with 2584 accounts.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T0081",
+      "tactic": "target-audience-analysis",
+      "color": "#ffe766",
+      "comment": "Top languages: th: 13290, und: 656, en: 42, ja: 2, ko: 2, da: 1",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T0095",
+      "tactic": "amplify-message",
+      "color": "#8ec843",
+      "comment": "7453 reposts observed among IO accounts.",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T0094",
+      "tactic": "amplify-message",
+      "color": "#85c1f2",
+      "comment": "Frequent app clients: ca6000e3f501ee48f32d3481b7e65c7b72c9eb26a8: 8440, 15592fcc82d5064a8f4a3b89774e6cd0bbd2118aa0: 3687, 072f1b013621f1b0d9753c98d97f5a0a97a8b68303: 1823, d15d15e40e0cb7bf9d6a1f0be11e78d43fd35b0eea: 43",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": true
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ff6666ff",
+      "#ffe766ff",
+      "#8ec843ff"
+    ],
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "legendItems": [],
+  "metadata": [],
+  "links": [],
+  "showTacticRowBackground": false,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": true,
+  "selectSubtechniquesWithParent": false
+}
