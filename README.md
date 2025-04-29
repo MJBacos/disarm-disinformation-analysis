@@ -61,8 +61,3 @@ thailand-disarm-analysis/
 The **DISARM Framework** offers an open method for describing and analyzing information operations. It enables standardized sharing and detection of disinformation tactics.
 
 Learn more at [DISARM Foundation](https://disarm.foundation)
-
-
----
-
-# ✨ Building Transparent Disinformation Analysis.
