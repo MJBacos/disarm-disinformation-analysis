@@ -1,0 +1,101 @@
+# Thailand Disinformation Campaign Findings
+
+This document summarizes the behavioral findings from datasets related to state-sponsored information operations (IO) in Thailand, processed through the DISARM framework.
+
+---
+
+## Overview
+Thailand’s campaigns were focused on **domestic narrative control**, with a strong emphasis on Thai-language content, automation, and manufactured consensus via reposts. These operations map clearly to several DISARM techniques, and the findings suggest a coordinated effort to simulate popular support for pro-government or pro-military messaging.
+
+---
+
+## DISARM Technique Analysis
+
+### ✅ T0074 – Plan Strategy (Mass Account Creation)
+- **Dec 8, 2019**: 2,584 accounts created
+- **Jan 14, 2020**: 568 accounts created
+- **2016 Campaign**: 697 accounts
+
+> Mass creation of accounts indicates pre-fabricated networks rather than organic growth. 
+
+---
+
+### 💬 T0081 – Target Audience Analysis (Language Use)
+- Top language: `th` (Thai)
+- Others: `en`, `ja`, `ko`, minimal and likely incidental
+- Undefined (`und`) present in small numbers
+
+> Focused almost entirely on Thai citizens, suggesting a campaign of internal influence rather than international propaganda.
+
+#### Sample Tweets (Translated)
+> "We stand with the military. Peace before democracy! 🇹🇭 #รักชาติ #มั่นคง"
+
+> "The government always puts Thai people first. Don't believe fake news. #ThailandFirst"
+
+> "Protesters don’t care about the country, just chaos. We support the truth. #StopFakeNews"
+
+These tweets reflect nationalist themes, support for military stability, and anti-protester narratives.
+
+#### Real Examples from Royal Thai Army-Linked Accounts
+Investigations by Facebook and independent OSINT researchers in 2020 confirmed that hundreds of accounts linked to the **Royal Thai Army (RTA)** were part of the disinformation operation. These accounts posted content such as:
+
+> **"Our soldiers protect the people and the nation. Disrespecting them is un-Thai."**  
+> *#หยุดม็อบ #เชิดชูทหารไทย*
+
+> **"The monarchy is the heart of Thailand. Attacking it is treason."**  
+> *#เทิดทูนสถาบัน #ต่อต้านข่าวลวง*
+
+> **"These student protests are funded by outsiders. Wake up and protect the nation!"**  
+> *#ม็อบรับเงิน #หยุดข่าวปลอม*
+
+These examples reinforce a coordinated narrative strategy: promote nationalism, discredit protest movements, and defend the military and monarchy against dissent.
+
+---
+
+### 🔁 T0095 – Amplify Message (Reposts)
+- 7,453 reposts observed in Dec 2019 batch
+- 2,609 reposts in Jan 2020 batch
+
+> Reposts among IO accounts simulate social proof and popular support for preferred narratives.
+
+---
+
+### 🤖 T0094 – Amplify Message (Automation Clients)
+- High-frequency app clients included:
+  - `ca6000e3f5...`: 8,440 messages
+  - `15592fcc82...`: 3,687 messages
+  - `072f1b0136...`: 1,823 messages
+
+> A small number of automated clients generated most of the output, indicating centralized control and reliance on automation.
+
+---
+
+## Operational Summary
+| Phase        | Behavior                                      |
+|--------------|-----------------------------------------------|
+| Setup        | Mass account creation (T0074)                 |
+| Targeting    | Thai-language audience (T0081)                |
+| Amplification| Reposts between accounts (T0095)              |
+| Automation   | Use of dedicated clients (T0094)              |
+
+
+---
+
+## Key Takeaways
+- Thailand’s disinformation campaigns were not foreign-focused — they were designed to shape domestic opinion.
+- Mass account creation and reposting behavior signal a coordinated IO effort.
+- The use of automation suggests high-efficiency operations with minimal manual interaction.
+- Content from Royal Thai Army-linked accounts aligns directly with the strategic goals of the campaign.
+- DISARM helped structure and expose the strategic and technical layers of the campaign.
+
+---
+
+## Recommendations for Future Research
+- Perform narrative content analysis of actual messages
+- Cluster repost networks by automation client ID
+- Compare findings with similar domestic campaigns in other countries
+
+---
+
+**Created as part of the Thailand DISARM GitHub research repo.**
+
