@@ -39,9 +39,7 @@ In short:
 ## 📁 Repo Structure
 ```bash
 thailand-disarm-analysis/
-├── datasets/
-│   ├── original_parquets/      # Raw Parquet files
-│   └── disarm_jsons/           # Final JSONs ready for DISARM Navigator
+├── original_parquets/      # Raw Parquet files
 ├── scripts/
 │   ├── parquet_to_csv.py       # Script: Parquet to CSV conversion
 │   └── csv_to_disarm_json.py   # Script: CSV to DISARM JSON conversion
