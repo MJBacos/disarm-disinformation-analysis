@@ -40,12 +40,12 @@ In short:
 ```bash
 thailand-disarm-analysis/
 ├── original_parquets/      # Raw Parquet files
+├── disarms_jsons/          # Converted JSON files
 ├── scripts/
 │   ├── parquet_to_csv.py       # Script: Parquet to CSV conversion
 │   └── csv_to_disarm_json.py   # Script: CSV to DISARM JSON conversion
 ├── LICENSE
 └── README.md
-```
 
 
 ---
@@ -54,15 +54,6 @@ thailand-disarm-analysis/
 1. **Clone the repository**
 2. **(Optional)** Use scripts to rerun conversions if working with new data.
 3. **Load JSON files** in [DISARM Navigator](https://disarm.foundation/navigator) to visualize the campaigns.
-
-
----
-
-## 📊 Future Plans
-- Add full metadata extraction examples.
-- Provide cleaned CSVs for transparency.
-- Expand to include campaign findings and analysis.
-
 
 ---
 
